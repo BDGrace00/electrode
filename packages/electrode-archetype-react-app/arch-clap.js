@@ -535,6 +535,7 @@ Individual .babelrc files were generated for you in src/client and src/server
 
     debug: ["build-dev-static", "server-debug"],
     devbrk: ["dev --inspect-brk"],
+    "dev-inspect": ["dev --inspect"],
     dev: {
       desc: "Start your app with watch in development mode with webpack-dev-server",
       dep: [".remove-log-files", ".development-env", ".mk-dist-dir"],
